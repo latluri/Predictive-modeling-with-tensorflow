@@ -6,8 +6,11 @@ The aim of this project is to predict the imdb scores using the above data
 The data for this project is sourced from https://github.com/sundeepblue/movie_rating_prediction and the final file movie_metadata.csv is used 
 
 The following are the models build in tensor flow
+
 Linear model : Predicts if movie rating is above 5 or not 
+
 DNN classifier : Predicts if movie is poor <2.5, 2.5 < average <5, 5< good <7.5, 7.5<Excellent<10
+
 Hybrid model A.K.A DNNLinearCombinedClassifier : Predicts if movie is poor <4, 4 < average <6, 6< good <8, 8<Excellent<10
 
 
